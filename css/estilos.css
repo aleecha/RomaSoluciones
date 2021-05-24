@@ -215,6 +215,7 @@ ul, ol{
 
 #somos{
 	background-image: url(../img/maderatex.jpg);
+	background-size: cover;
 	
 }
 
@@ -242,39 +243,27 @@ ul, ol{
 
 #somos .parrafo p{
 	text-decoration: bolder;
-	margin-top: 0%;
+	margin-left: 5%;
 	color: rgb(255, 255, 255);
 	font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
 	font-size: 22px;
 	line-height: 50px;
 	text-shadow:  #000000 0px 5px 5px;
-}
-/*#somos h3::after{
-	border-top: 3px solid #d17905;
-	position: absolute;
-	top: -0%;
-    display: block;
-    content: "";
-    width: 40px;
-	height: 3px;
-	bottom: 70px;
-}*/
-#somos .mitad {
-	background-color: rgba(0, 0, 0, 0.411);
-	padding-top:10%;
-	padding-bottom:10%;
+	text-align:center;
 }
 
-#somos .fotopi{
-	padding-top:1%;
+
+
+
+
+#somos{
+	padding-top: 6%;
+	padding-bottom: 2%;
 }
 
-#somos .fotobajo{
-	padding-top:1%;
-}
-#somos .fotobajo .ima1, .ima2, .ima3, .ima4{
-	padding-top:2%;
-	padding-bottom:2%;
+#somos .parrafo .p{
+	text-align: center;
+	align-items: center;
 }
 
 #somos .nosotros{
@@ -534,8 +523,14 @@ width: 8%;
 }
 
 
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+	text-decoration: bolder;
+border-radius: 1em;
 
-
+}
 
 
 
@@ -564,9 +559,6 @@ padding-bottom: 2%;
 	font-size: 25px;
 	font-weight: 600;
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
-
-	
-	
 }
 
 
@@ -714,20 +706,21 @@ div{
 	border-radius: 5px;
 }
 .contenedor{
-	padding-bottom: 3%;
+	align-items: center;
+	padding-bottom: 0%;
 	background-color:rgba(0, 0, 0, 0.534);
-	width:100%;
-	height:30px;
+	width:auto;
+	height:auto;
 display:flex;
 justify-content: space-around;
 }
 .contenido {
-	padding-bottom: 2%;
-	height:0px;
-	width:30%;
+	padding-bottom: 0%;
+	height:auto;
+	width:auto;
 	float:left;
-	margin: 10px;
-	font-size: 12px;
+	margin: 0.5%;
+	font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
 	color: rgb(255, 255, 255);
@@ -735,3 +728,385 @@ justify-content: space-around;
 	text-shadow:  #000000 0px 5px 5px;
 }
 
+
+
+
+#construccion{ 
+  box-sizing: content-box;
+	background: url(../img/paredblanca2.jpg) fixed no-repeat center;
+	
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#electricidad{
+	background: url(../img/paredblanca.jpg)fixed  no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#plomeria{
+
+	background: url(../img/paredblanca.jpg)fixed  no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#refrigeracion{
+	background: url(../img/paredblanca.jpg) fixed no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#techos{
+	background: url(../img/paredblanca.jpg)fixed no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#pintura{
+	background: url(../img/paredblanca2.jpg)  no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+
+#construccion{
+	padding-top:6%;
+	padding-bottom: 6%;
+	clear:both;
+}
+
+
+
+#construccion h2{
+	font-size: 44px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 4%;
+    margin-top: 8%;
+	color: #333;
+	padding-top: 3%;
+	text-align: center;
+}
+
+#construccion .caja{
+	
+	padding-bottom: 2%;
+}
+
+#construccion .lis p{
+
+	width: 100%;
+	height: auto;
+    color: #777;
+	padding-bottom: 2%;
+	padding-top:2%;
+	font-size: 20px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+	color: #333;	
+}
+
+#construccion .fa-check{
+color:#094d3e;
+}
+
+#construccion .img{
+	background: rgba(0, 0, 0, 0.521);
+	padding-top: 0%;
+	width: 100%;
+	float: right;
+	box-shadow: 2px 2px 10px 2px black;
+	border-radius: 1em;
+	
+	
+}
+
+
+
+#electricidad{
+	padding-top:6%;
+	padding-bottom: 6%;
+	clear:both;
+}
+
+
+
+#electricidad h2{
+	font-size: 44px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 4%;
+    margin-top: 0;
+	color: #333;
+	padding-top: 3%;
+	text-align: center;
+}
+
+#electricidad .caja{
+	
+	padding-bottom: 2%;
+}
+
+#electricidad .lis p{
+
+	width: 100%;
+	height: auto;
+    color: #777;
+	padding-bottom: 2%;
+	padding-top:2%;
+	font-size: 20px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+	color: #333;	
+}
+
+#electricidad .fa-check{
+color:#094d3e;
+}
+
+#electricidad .img2{
+	background: rgba(0, 0, 0, 0.521);
+	padding-top: 0%;
+	width: 100%;
+	float: right;
+	box-shadow: 2px 2px 10px 2px black;
+	border-radius: 1em;
+	
+	
+}
+
+
+#plomeria{
+	padding-top:6%;
+	padding-bottom: 6%;
+	clear:both;
+}
+
+
+
+#plomeria h2{
+	font-size: 44px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 4%;
+    margin-top: 0;
+	color: #333;
+	padding-top: 3%;
+	text-align: center;
+}
+
+#plomeria .caja{
+	
+	padding-bottom: 2%;
+}
+
+#plomeria .lis p{
+
+	width: 100%;
+	height: auto;
+    color: #777;
+	padding-bottom: 2%;
+	padding-top:2%;
+	font-size: 20px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+	color: #333;	
+}
+
+#plomeria .fa-check{
+color:#094d3e;
+}
+
+#plomeria .img2{
+	background: rgba(0, 0, 0, 0.521);
+	padding-top: 0%;
+	width: 100%;
+	float: right;
+	box-shadow: 2px 2px 10px 2px black;
+	border-radius: 1em;
+	
+	
+}
+
+
+#refrigeracion{
+	padding-top:6%;
+	padding-bottom: 6%;
+	clear:both;
+}
+
+
+
+#refrigeracion h2{
+	font-size: 44px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 4%;
+    margin-top: 0;
+	color: #333;
+	padding-top: 3%;
+	text-align: center;
+}
+
+#refrigeracion .caja{
+	
+	padding-bottom: 2%;
+}
+
+#refrigeracion .lis p{
+
+	width: 100%;
+	height: auto;
+    color: #777;
+	padding-bottom: 2%;
+	padding-top:2%;
+	font-size: 20px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+	color: #333;	
+}
+
+#refrigeracion .fa-check{
+color:#094d3e;
+}
+
+#refrigeracion .img2{
+	background: rgba(0, 0, 0, 0.521);
+	padding-top: 0%;
+	width: 100%;
+	float: right;
+	box-shadow: 2px 2px 10px 2px black;
+	border-radius: 1em;
+	
+	
+}
+
+#techos{
+	padding-top:6%;
+	padding-bottom: 6%;
+	clear:both;
+}
+
+
+
+#techos h2{
+	font-size: 44px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 4%;
+    margin-top: 0;
+	color: #333;
+	padding-top: 3%;
+	text-align: center;
+}
+
+#techos .caja{
+	
+	padding-bottom: 2%;
+}
+
+#techos .lis p{
+
+	width: 100%;
+	height: auto;
+    color: #777;
+	padding-bottom: 2%;
+	padding-top:2%;
+	font-size: 20px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+	color: #333;	
+	
+}
+
+#techos .fa-check{
+color:#094d3e;
+}
+
+#techos .img2{
+	background: rgba(0, 0, 0, 0.521);
+	padding-top: 0%;
+	width: 100%;
+	float: right;
+	box-shadow: 2px 2px 10px 2px black;
+	border-radius: 1em;
+}
+
+#techos .letech{
+	
+	height: auto;
+	padding-bottom: 2%;
+	padding-top:2%;
+	font-size: 25px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+	color: #333;
+}
+
+#pintura{
+	padding-top:6%;
+	padding-bottom: 6%;
+	clear:both;
+}
+
+
+
+#pintura h2{
+	font-size: 44px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 4%;
+    margin-top: 0;
+	color: #333;
+	padding-top: 3%;
+	text-align: center;
+}
+
+#pintura .caja{
+	
+	padding-bottom: 2%;
+}
+
+#pintura .lis p{
+
+	width: 100%;
+	height: auto;
+    color: #777;
+	padding-bottom: 2%;
+	padding-top:2%;
+	font-size: 20px;
+    line-height: 1em;
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+	color: #333;	
+}
+
+#pintura .fa-check{
+color:#094d3e;
+}
+
+#pintura .img2{
+	background: rgba(0, 0, 0, 0.521);
+	padding-top: 0%;
+	width: 100%;
+	float: right;
+	box-shadow: 2px 2px 10px 2px black;
+	border-radius: 1em;
+	
+	
+}
